@@ -1,0 +1,93 @@
+body{
+    background: rgb(75, 73, 73);
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+header{
+    background-color: black;
+    background-image: url(./images/hero.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
+    height: 400px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    background-color: white;
+    color:black;
+    box-shadow: none;
+    border: none;
+}
+
+ /* FEATURES */
+.features{
+    background: white;
+    color: grey;
+    padding:x 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+.features figure{
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    
+}
+
+.features figure img{
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: black 0 0 10px;
+    border: 1px solid white;
+}
+
+
+
+header .logo {
+    background-image: url("./images/logo.jpg");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -15px;
+    text-indent: -99999px;
+    height: 100px;
+    display: inline-block;
+    width:100px;
+}
+
+/* FOOTER */
+
+footer{
+    background: black;
+    padding: 20px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: grey;
+    font-size: 12px;
+}
